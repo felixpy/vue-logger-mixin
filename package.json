@@ -1,6 +1,6 @@
 {
   "name": "vue-logger-mixin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A logger mixin for vue which can use different appenders.",
   "main": "dist/bundle.js",
   "scripts": {
