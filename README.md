@@ -1,6 +1,6 @@
 # vue-logger-mixin
 
-A logger mixin for vue which can use different patterns and appenders with [@felixpy/logger](https://github.com/felixpy/logger).
+A logger mixin for Vue.js which can use different patterns and appenders with [@felixpy/logger](https://github.com/felixpy/logger).
 
 ## Installation
 
@@ -22,8 +22,8 @@ new Vue({
   // ...
 
   components: {
-    'foobar': {
-      created () {
+    foobar: {
+      created() {
         this.$logger.log('created', 'Hello Logger!')
       }
     }
@@ -41,7 +41,7 @@ Vue.use(LoggerMixin, {
   // custom config
   config: {
     separator: '>>>',
-    dateFormatter: function (date) {
+    dateFormatter: function(date) {
       return date.toISOString()
     }
   }

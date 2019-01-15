@@ -1,7 +1,7 @@
 {
   "name": "vue-logger-mixin",
-  "version": "0.1.1",
-  "description": "A logger mixin for vue which can use different appenders.",
+  "version": "0.1.2",
+  "description": "A logger mixin for Vue.js which can use different appenders.",
   "main": "dist/bundle.js",
   "scripts": {
     "test": "cross-env BABEL_ENV=test mocha --recursive --require babel-core/register",
@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/felixpy/vue-logger-mixin#readme",
   "dependencies": {
-    "@felixpy/logger": "^0.1.7"
+    "@felixpy/logger": "^0.1.8"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
